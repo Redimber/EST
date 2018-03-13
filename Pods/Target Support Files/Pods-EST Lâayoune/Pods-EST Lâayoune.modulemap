@@ -1,0 +1,6 @@
+framework module Pods_EST_La_ayoune {
+  umbrella header "Pods-EST Lâayoune-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0D88037075124BEB72333020 /* Pods_EST_La_ayoune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCCEA85EF3D45EAA2D8E999 /* Pods_EST_La_ayoune.framework */; };
+		18303DA8204DC9B0000F327E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18303DA7204DC9B0000F327E /* ViewController2.swift */; };
 		184452B9204D8EC600658410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184452B8204D8EC600658410 /* AppDelegate.swift */; };
 		184452BB204D8EC600658410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184452BA204D8EC600658410 /* ViewController.swift */; };
 		184452BE204D8EC600658410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184452BC204D8EC600658410 /* Main.storyboard */; };
-		184452C0204D8EC600658410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184452BF204D8EC600658410 /* Assets.xcassets */; };
 		184452C3204D8EC600658410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184452C1204D8EC600658410 /* LaunchScreen.storyboard */; };
 		184452CB204DBB4A00658410 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184452CA204DBB4A00658410 /* GoogleService-Info.plist */; };
 		184452CF204DBF2800658410 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184452CE204DBF2800658410 /* Info.plist */; };
+		187908A62058708E00E4C789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187908A52058708E00E4C789 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		114EEDB1DC4FCEE18A58E3F3 /* Pods-EST Lâayoune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EST Lâayoune.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EST Lâayoune/Pods-EST Lâayoune.debug.xcconfig"; sourceTree = "<group>"; };
+		18303DA7204DC9B0000F327E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		184452B5204D8EC600658410 /* EST Lâayoune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EST Lâayoune.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184452B8204D8EC600658410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184452BA204D8EC600658410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		184452BD204D8EC600658410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		184452BF204D8EC600658410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184452C2204D8EC600658410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184452CA204DBB4A00658410 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		184452CE204DBF2800658410 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187908A52058708E00E4C789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3A7DB5E3F88F4ADD1D7B8A /* Pods-EST Lâayoune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EST Lâayoune.release.xcconfig"; path = "Pods/Target Support Files/Pods-EST Lâayoune/Pods-EST Lâayoune.release.xcconfig"; sourceTree = "<group>"; };
 		5CCCEA85EF3D45EAA2D8E999 /* Pods_EST_La_ayoune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EST_La_ayoune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,7 +69,8 @@
 				184452B8204D8EC600658410 /* AppDelegate.swift */,
 				184452BA204D8EC600658410 /* ViewController.swift */,
 				184452BC204D8EC600658410 /* Main.storyboard */,
-				184452BF204D8EC600658410 /* Assets.xcassets */,
+				187908A52058708E00E4C789 /* Assets.xcassets */,
+				18303DA7204DC9B0000F327E /* ViewController2.swift */,
 				184452C1204D8EC600658410 /* LaunchScreen.storyboard */,
 				184452CA204DBB4A00658410 /* GoogleService-Info.plist */,
 				184452CE204DBF2800658410 /* Info.plist */,
@@ -156,9 +159,9 @@
 			files = (
 				184452C3204D8EC600658410 /* LaunchScreen.storyboard in Resources */,
 				184452CB204DBB4A00658410 /* GoogleService-Info.plist in Resources */,
-				184452C0204D8EC600658410 /* Assets.xcassets in Resources */,
 				184452CF204DBF2800658410 /* Info.plist in Resources */,
 				184452BE204D8EC600658410 /* Main.storyboard in Resources */,
+				187908A62058708E00E4C789 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +236,7 @@
 			files = (
 				184452BB204D8EC600658410 /* ViewController.swift in Sources */,
 				184452B9204D8EC600658410 /* AppDelegate.swift in Sources */,
+				18303DA8204DC9B0000F327E /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
